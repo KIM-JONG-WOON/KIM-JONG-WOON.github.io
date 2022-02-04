@@ -186,6 +186,9 @@ section {
     width: 75%;
 }
 
+.video {
+    width: 59vw;
+}
 
 .copy {
     text-align: center;
