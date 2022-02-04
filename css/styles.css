@@ -35,25 +35,139 @@
 .bc5 {
     background-color: #D9A759;
 }
-body {
-    background-color: black;
-}
-header {
-    height: 714px;
-    font-size: 72px;
-}
+
 h1, h2, h3, h4, h5 {
     margin-left: 30px;
 }
 
-.icons {
-    width: 70px;
-    border-radius: 30%;
-    padding: 10px;
+body {
+    background-color: black;
+    width: 100%;
 }
+.change-b {
+    background-color: #ffffff;
+}
+
+.change-c {
+    color: #000000;
+}
+
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.Header {
+    display: flex;
+}
+
+.Htxt {
+    width: 61%;
+}
+.Htxt h1 {
+    font-size: 11vw;
+}
+
+.Hpic {
+    width: 39%;
+}
+
+.Hlamp {
+
+}
+
+.img-me1 {
+    margin-top: 12vh;
+}
+
+.img-me1 img {
+    width: 25vw;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.who-inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.who-img {
+    text-align: center;
+}
+
+.who-img img {
+    width: 25vw;
+    text-align: center;
+}
+
+.who-text {
+    font-size: 3vw;
+    margin-left: 6vw;
+    line-height: 9vh;
+}
+
+
+.tech-inner {
+    margin-top: 3vh;
+}
+
+.tech-inner > div {
+    margin: 5vh 0;
+}
+
+.tech-la-L {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tech-la-C {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-la-R {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tech-label {
+    height: 16vh;
+    text-align: center;
+}
+
+.tech-label > div {
+    margin: 0 1.5vw;
+}
+.icons {
+    width: 5vw;
+    border-radius: 30%;
+    padding: 1vw;
+}
+
+
 
 .had-ul {
     display: flex;
+    margin: 3vh 0;
+    padding: 2vh 0;
+    cursor: pointer;
+}
+
+.had-ul li {
+    width: 90%;
+    text-align: center;
 }
 
 .had-con > div {
@@ -62,4 +176,43 @@ h1, h2, h3, h4, h5 {
 
 .had-con .active {
     display: block;
+}
+
+.had-con > div {
+    text-align: center;
+}
+
+.had-con > div img {
+    width: 75%;
+}
+
+
+.copy {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ft-img {
+}
+
+.ft-img ul {
+    display: flex;
+    justify-content: center;
+}
+
+.ft-img ul li {
+    text-align: center;
+}
+
+.Mining {
+    display: flex;
+}
+.had-con .Mining img {
+    width: 29vw;
+    height: 70vh;
+}
+
+.had-con .python {
+    width: 33vw;
+    margin: 0 auto;
 }
